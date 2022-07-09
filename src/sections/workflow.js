@@ -22,7 +22,7 @@ const data = [/*
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id="wann">
       <Container>
         <SectionHeader
           slogan="Wann also?"

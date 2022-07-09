@@ -36,7 +36,7 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+    <section sx={{ variant: 'section.keyFeature' }} id="geschenk">
       <Container>
         <SectionHeader
           slogan="Was wäre ein Geburtstag..."

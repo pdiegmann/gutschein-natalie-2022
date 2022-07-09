@@ -48,7 +48,7 @@ const faqs = [
 ];
 export default function Faq() {
   return (
-    <section sx={{ variant: 'section.faq' }}>
+    <section sx={{ variant: 'section.faq' }} id="fragen">
       <Container>
         <SectionHeader
           title="Frequently asked question"
