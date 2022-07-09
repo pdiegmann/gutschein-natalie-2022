@@ -1,17 +1,18 @@
 /** @jsx jsx */
-import { jsx, Container, Box } from 'theme-ui';
+import { jsx, Container, Box, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import Partner from 'assets/partner.png';
+import Bar from 'assets/bar.jpg';
+import Hotel from 'assets/hotel.jpg';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'und wo?',
+  title: 'Im Ringhotel am Stadtpark',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
-  btnName: 'Get Started',
-  btnURL: '#',
+    '',
+  btnName: '',
+  btnURL: '',
 };
 
 export default function PartnerSection() {
@@ -27,9 +28,14 @@ export default function PartnerSection() {
             btnURL={data.btnURL}
           />
         </Box>
-        <Box sx={{ px: [0, null, '40px', 0] }}>
-          <Image src={Partner} alt="Partner" />
+        <Box sx={{ px: [0, null, '0px', 0] }}>
+          <Image src={Hotel} alt="Hotel" />
         </Box>
+        <Box sx={{ px: [0, null, '0px', 0] }}>
+          <Image src={Bar} alt="Bar" />
+        </Box>
+
+        <Box sx={{ px: [0, null, '0px', 0], pt: '80px', textAlign: 'center' }}><Heading>Viel Spaß mit deinem Gutschein für ein Wellnesswochenende mit den Mädels!</Heading></Box>
       </Container>
     </section>
   );
@@ -40,15 +46,16 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+    pt: '40px',
     flexWrap: ['wrap', null, null, 'nowrap'],
   },
   contentBox: {
     flexShrink: 0,
-    px: [0, null, '30px', 0],
+    px: [0, null, '0px', 0],
     textAlign: ['center', null, null, 'left'],
     width: ['100%', 450, 550, '350px', '410px', '485px'],
     mx: 'auto',
-    pb: ['30px', null, null, 0],
+    pb: ['0px', null, null, 0],
     '.description': {
       pr: [0, null, null, null, 4],
     },

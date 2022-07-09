@@ -44,47 +44,11 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+            Alles Gute zum Geburtstag, Nati! 🎉🎉🎉
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            Wir wünschen dir alles erdenklich Gute für dein neues Lebensjahr. Gesundheit und Glück, aber vor allem ganz viel Freude. Auf dich! 🤗
           </Text>
-          <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
-            </Button>
-            <>
-              <ModalVideo
-                channel="youtube"
-                isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
-                onClose={() => setVideoOpen(false)}
-              />
-              <Button
-                variant="textButton"
-                aria-label="Watch Video"
-                onClick={handleClick}
-              >
-                <FaPlayCircle /> Watch Video
-              </Button>
-            </>
-          </Flex>
-          <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
-            <Box sx={styles.sponsorBox.sponsor}>
-              {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
-                  <Image src={item.image} alt={item.title} />
-                </Link>
-              ))}
-            </Box>
-          </Flex>
-        </Box>
-
-        <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
         </Box>
       </Container>
     </section>
@@ -100,7 +64,7 @@ const styles = {
     backgroundSize: 'cover',
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ['150px', null, null, null, null, null, '140px', '130px'],
-    pb: ['100px', null, null, '110px', null, 10, '150px'],
+    pb: ['0px', null, null, '110px', null, 10, '150px'],
     backgroundColor: 'primary',
     container: {
       display: 'flex',

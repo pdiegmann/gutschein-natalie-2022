@@ -2,36 +2,22 @@
 import { jsx } from 'theme-ui';
 import { Container, Grid, Box, Heading, Text } from 'theme-ui';
 import SectionHeader from 'components/section-header';
+import Image from 'components/image';
 
 import PatternBG from 'assets/patternBG.png';
 import ArrowOdd from 'assets/arrowOdd.png';
 import ArrowEven from 'assets/arrowEven.png';
+import Spa from 'assets/spa.jpg';
+import Massage from 'assets/massage.jpg';
+import Rose from 'assets/rose.jpg';
 
-const data = [
+const data = [/*
   {
     id: 1,
     title: 'Set disbursement Instructions',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-  {
-    id: 2,
-    title: 'Assembly retrieves funds from your account',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-  {
-    id: 3,
-    title: 'Assembly initiates disbursement',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-  {
-    id: 4,
-    title: 'Customer receives funds payment',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
+  },*/
 ];
 
 export default function WorkFlow() {
@@ -39,10 +25,25 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="Wann also?"
+          title="Sa, 10. bis So, 11. Dezember!"
           isWhite={true}
         />
+
+        <Box sx={styles.card} key={1}>
+          <Heading sx={styles.wrapper.title}>... mit Massage</Heading>
+          <Box sx={styles.thumbnail}>
+            <Image src={Spa} alt="Thumbnail" />
+          </Box>
+
+          <Box sx={styles.thumbnail}>
+            <Image src={Massage} alt="Thumbnail" />
+          </Box>
+
+          <Box sx={styles.thumbnail}>
+            <Image src={Rose} alt="Thumbnail" />
+          </Box>
+        </Box>
 
         <Grid sx={styles.grid}>
           {data.map((item) => (

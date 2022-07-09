@@ -3,34 +3,34 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import Vector from 'assets/key-feature/vector.svg';
-import Editing from 'assets/key-feature/editing.svg';
-import Speed from 'assets/key-feature/speed.svg';
+import Friends from 'assets/friends.svg';
+import Spa from 'assets/spa.svg';
+import Weekend from 'assets/weekend.svg';
 
 const data = [
   {
     id: 1,
-    imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Vector Editing',
+    imgSrc: Spa,
+    altText: 'Wellness',
+    title: 'Viel Wellness...',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      '',
   },
   {
     id: 2,
-    imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    imgSrc: Weekend,
+    altText: 'Wochenende',
+    title: '... am Wochenende ...',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      '',
   },
   {
     id: 3,
-    imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    imgSrc: Friends,
+    altText: 'Mädels',
+    title: '... mit den Mädels!',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      '',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Was wäre ein Geburtstag..."
+          title="... ohne Geschenk?"
         />
 
         <Grid sx={styles.grid}>
@@ -61,9 +61,9 @@ export default function KeyFeature() {
 
 const styles = {
   grid: {
-    px: [0, null, null, '40px', null, '80px'],
+    px: [0, null, null, '40px', null, '40px'],
     pt: [0, null, null, null, null, null, null, 3],
-    gridGap: ['35px 0', null, '40px 0'],
+    gridGap: ['35px 0', null, '0px 0'],
     gridTemplateColumns: [
       'repeat(1,1fr)',
       null,
