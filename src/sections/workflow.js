@@ -151,7 +151,7 @@ const styles = {
     fontSize: [6, null, 7, null, null, '30px'],
     fontWeight: 700,
     justifyContent: 'center',
-    color: '#234582',
+    color: '#FFAB73',
   },
   wrapper: {
     width: '100%',

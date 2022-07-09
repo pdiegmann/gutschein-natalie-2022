@@ -2,17 +2,17 @@ export default {
   // example colors with dark mode
   colors: {
     text: '#343D48', // body color and primary color
-    text_secondary: '#02073E', // secondary body color
-    heading: '#244886', // primary heading color
+    text_secondary: '#FFAB73', // secondary body color
+    heading: '#FFAB73', // primary heading color
     heading_secondary: '#0F2137', // heading color
     background: '#FFFFFF', // body background color
-    background_secondary: '#F9FBFD', // secondary background color
+    background_secondary: '#FFD384', // secondary background color
     border_color: '#E5ECF4', // border color
-    primary: '#1F3E76', // primary button and link color
-    secondary: '#25CB9E', // secondary color - can be used for hover states
+    primary: '#FFAEC0', // primary button and link color
+    secondary: '#FFD384', // secondary color - can be used for hover states
     muted: '#7B8188', // muted color
-    accent: '#609', // a contrast color for emphasizing UI
-    yellow: '#F6C416',
+    accent: '#FFD384', // a contrast color for emphasizing UI
+    yellow: '#FFD384',
 
     // highlight	a background color for highlighting text
     modes: {
@@ -173,7 +173,7 @@ export default {
       fontWeight: 'bold',
       fontSize: 18,
       lineHeight: '30px',
-      color: '#0F2137',
+      color: '#FFAB73',
     },
     lead: {
       fontSize: 40,
@@ -181,7 +181,7 @@ export default {
       fontWeight: '500',
       lineHeight: '60px',
       letterSpacing: '-1.5px',
-      color: '#0F2137',
+      color: '#FFAB73',
     },
     muted: {
       lineHeight: '26px',
@@ -360,7 +360,7 @@ export default {
     hr: {
       border: 0,
       borderBottom: '1px solid',
-      borderColor: '#D9E0E7',
+      borderColor: '#FFAB73',
     },
     // also you can use other HTML elements style here
     ul: {

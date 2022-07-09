@@ -52,7 +52,7 @@ const MobileDrawer = () => {
       }
       open={state.isOpen}
       toggleHandler={toggleHandler}
-      closeButton={<IoMdClose size="24px" color="#000000" />}
+      closeButton={<IoMdClose size="24px" color="#FFAB73" />}
       drawerStyle={styles.drawer}
       closeBtnStyle={styles.close}
     >
