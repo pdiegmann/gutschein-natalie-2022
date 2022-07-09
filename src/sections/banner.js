@@ -44,10 +44,39 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Alles Gute zum Geburtstag, Nati! 🎉🎉🎉
+            Liebe Nati,
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Wir wünschen dir alles erdenklich Gute für dein neues Lebensjahr. Gesundheit und Glück, aber vor allem ganz viel Freude. Auf dich! 🤗
+            deinen Geburtstag feiern wir<br/>
+            nicht nur bei guter Laune, Essen, Wodka, Bier,<br/>
+            sondern auch als Trip<br/>
+            und alle vier Mädels kommen mit.
+          </Text>
+          <Text as="p" variant="heroSecondary">
+            Nach der wilden Partynacht,<br/>
+            ist ein bisschen Entspannung angebracht.<br/>
+            Damit du auch die nächsten dreißig Jahre<br/>
+            deine wunderbare Art bewahre<small><i>st</i></small><br/>
+            und weiter strahlst so wie der Sonnenschein<br/>
+            darf es ein bisschen Wellness sein.
+          </Text>
+          <Text as="p" variant="heroSecondary">
+            Wir wünschen dir von ganzem Herzen<br/>
+            dass du genullt hast ohne Schmerzen.<br/>
+            Möge dir das neue Jahr bescheren,<br/>
+            dass sich die guten Dinge nur vermehren<br/>
+            Liebe, Glück, Gesundheit, Spaß<br/>
+            und auch Abenteuer im rechten Maß<br/>
+            sollen dich begleiten<br/>
+            auf den Wegen die du wirst beschreiten. 
+          </Text>
+          <Text as="p" variant="heroSecondary">
+            Zuletzt lassen wir eine Pusteblume wehen<br/>
+            damit deine Wünsche in Erfüllung gehen.
+          </Text>
+          <Text as="p" variant="heroSecondary">
+            Alles Liebe wünschen dir<br/>
+            Nici & David, Rici & Sascha, Anni & Phil
           </Text>
         </Box>
       </Container>
