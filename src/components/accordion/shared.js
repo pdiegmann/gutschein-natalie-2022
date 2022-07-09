@@ -25,7 +25,7 @@ const styles = {
       width: 20,
       height: 20,
       borderRadius: '50%',
-      backgroundColor: '#FFAB73',
+      backgroundColor: '#FCD055',
       top: ['2px', null, '6px'],
       left: [0, null, '13px'],
       '&.open:after': {

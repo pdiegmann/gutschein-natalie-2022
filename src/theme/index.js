@@ -2,17 +2,17 @@ export default {
   // example colors with dark mode
   colors: {
     text: '#343D48', // body color and primary color
-    text_secondary: '#FFAB73', // secondary body color
-    heading: '#FFAB73', // primary heading color
+    text_secondary: '#FCD055', // secondary body color
+    heading: '#FCD055', // primary heading color
     heading_secondary: '#0F2137', // heading color
     background: '#FFFFFF', // body background color
-    background_secondary: '#FFD384', // secondary background color
-    border_color: '#E5ECF4', // border color
-    primary: '#FFAEC0', // primary button and link color
-    secondary: '#FFAB73', // secondary color - can be used for hover states
+    background_secondary: '#FCD055', // secondary background color
+    border_color: '#F7CAC9', // border color
+    primary: '#F7CAC9', // primary button and link color
+    secondary: '#FCD055', // secondary color - can be used for hover states
     muted: '#7B8188', // muted color
-    accent: '#FFD384', // a contrast color for emphasizing UI
-    yellow: '#FFD384',
+    accent: '#FCD055', // a contrast color for emphasizing UI
+    yellow: '#FCD055',
 
     // highlight	a background color for highlighting text
     modes: {
