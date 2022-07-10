@@ -15,8 +15,4 @@ export default [
     path: 'wo',
     label: 'Wo?',
   },
-  {
-    path: 'fragen',
-    label: 'Noch Fragen?',
-  },
 ];

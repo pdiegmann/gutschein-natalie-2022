@@ -46,13 +46,13 @@ export default function Banner() {
           <Heading as="h1" variant="heroPrimary">
             Liebe Nati,
           </Heading>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             deinen Geburtstag feiern wir<br/>
             nicht nur bei guter Laune, Essen, Wodka, Bier,<br/>
             sondern auch als Trip<br/>
             und alle vier Mädels kommen mit.
           </Text>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Nach der wilden Partynacht,<br/>
             ist ein bisschen Entspannung angebracht.<br/>
             Damit du auch die nächsten dreißig Jahre<br/>
@@ -60,7 +60,7 @@ export default function Banner() {
             und weiter strahlst so wie der Sonnenschein<br/>
             darf es ein bisschen Wellness sein.
           </Text>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Wir wünschen dir von ganzem Herzen<br/>
             dass du genullt hast ohne Schmerzen.<br/>
             Möge dir das neue Jahr bescheren,<br/>
@@ -70,11 +70,11 @@ export default function Banner() {
             sollen dich begleiten<br/>
             auf den Wegen die du wirst beschreiten. 
           </Text>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Zuletzt lassen wir eine Pusteblume wehen<br/>
             damit deine Wünsche in Erfüllung gehen.
           </Text>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Alles Liebe wünschen dir<br/>
             Nici & David, Rici & Sascha, Anni & Phil
           </Text>

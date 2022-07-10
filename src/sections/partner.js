@@ -3,7 +3,7 @@ import { jsx, Container, Box, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import Bar from 'assets/bar.jpg';
+import Maedels from 'assets/maedels-1.jpg';
 import Hotel from 'assets/hotel.jpg';
 
 const data = {
@@ -32,10 +32,10 @@ export default function PartnerSection() {
           <Image src={Hotel} alt="Hotel" />
         </Box>
         <Box sx={{ px: [0, null, '0px', 0] }}>
-          <Image src={Bar} alt="Bar" />
+          <Image src={Maedels} alt="Mädels" />
         </Box>
 
-        <Box sx={{ px: [0, null, '0px', 0], pt: '80px', textAlign: 'center' }}><Heading>Viel Spaß mit deinem Gutschein für ein Wellnesswochenende mit den Mädels!</Heading></Box>
+        <Box sx={{ px: [0, null, '0px', 0], pt: '80px' }}><Heading sx={{textAlign: 'center'}}>Wir freuen uns drauf!</Heading></Box>
       </Container>
     </section>
   );

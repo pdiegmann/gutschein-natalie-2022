@@ -25,7 +25,6 @@ export default function IndexPage() {
           <KeyFeature />
           <WorkFlow />
           <PartnerSection />
-          <Faq />
         </Layout>
       </StickyProvider>
     </ThemeProvider>
