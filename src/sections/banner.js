@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
-import BannerBG from 'assets/bannerBg.png';
+import BannerBG from 'assets/dandelion.svg';
 import BannerThumb from 'assets/banner-thumb.png';
 
 import client1 from 'assets/sponsor/paypal.svg';
@@ -66,9 +66,7 @@ export default function Banner() {
             Möge dir das neue Jahr bescheren,<br/>
             dass sich die guten Dinge nur vermehren<br/>
             Liebe, Glück, Gesundheit, Spaß<br/>
-            und auch Abenteuer im rechten Maß<br/>
-            sollen dich begleiten<br/>
-            auf den Wegen die du wirst beschreiten. 
+            und auch Abenteuer im rechten Maß.
           </Text>
           <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Zuletzt lassen wir eine Pusteblume wehen<br/>
