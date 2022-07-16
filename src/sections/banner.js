@@ -44,7 +44,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Liebe Nati,
+            Liebe Nati, 🎈
           </Heading>
           <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             deinen Geburtstag feiern wir<br/>
