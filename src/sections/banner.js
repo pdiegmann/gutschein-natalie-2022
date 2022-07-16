@@ -57,16 +57,16 @@ export default function Banner() {
             ist ein bisschen Entspannung angebracht.<br/>
             Damit du auch die nächsten dreißig Jahre<br/>
             deine wunderbare Art bewahre<small><i>st</i></small><br/>
-            und weiter strahlst so wie der Sonnenschein<br/>
+            und weiter strahlst so wie der Sonnenschein,<br/>
             darf es ein bisschen Wellness sein.
           </Text>
           <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
-            Wir wünschen dir von ganzem Herzen<br/>
+            Wir wünschen dir von ganzem Herzen,<br/>
             dass du genullt hast ohne Schmerzen.<br/>
             Möge dir das neue Jahr bescheren,<br/>
             dass sich die guten Dinge nur vermehren<br/>
             Liebe, Glück, Gesundheit, Spaß<br/>
-            und auch Abenteuer im rechten Maß.
+            und auch Abenteuer &em; im rechten Maß.
           </Text>
           <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Zuletzt lassen wir eine Pusteblume wehen<br/>
@@ -87,8 +87,8 @@ const styles = {
     overflow: ['hidden', 'initial', null, 'hidden'],
     backgroundImage: `url(${BannerBG})`,
     backgroundRepeat: `no-repeat`,
-    backgroundPosition: 'top left',
-    backgroundSize: 'cover',
+    backgroundPosition: 'bottom right',
+    backgroundSize: '60%',
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ['150px', null, null, null, null, null, '140px', '130px'],
     pb: ['0px', null, null, '110px', null, 10, '150px'],

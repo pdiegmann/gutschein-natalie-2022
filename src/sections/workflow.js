@@ -31,7 +31,7 @@ export default function WorkFlow() {
         />
 
         <Box sx={styles.card} key={1}>
-          <Heading sx={styles.wrapper.title}>... mit Massage</Heading>
+          <Heading sx={styles.wrapper.title}>... mit Hot-Stone-Massage</Heading>
           <Box sx={styles.thumbnail}>
             <Image src={Spa} alt="Thumbnail" />
           </Box>
