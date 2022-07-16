@@ -66,7 +66,7 @@ export default function Banner() {
             Möge dir das neue Jahr bescheren,<br/>
             dass sich die guten Dinge nur vermehren<br/>
             Liebe, Glück, Gesundheit, Spaß<br/>
-            und auch Abenteuer &em; im rechten Maß.
+            und auch Abenteuer &mdash; im rechten Maß.
           </Text>
           <Text as="p" variant="heroSecondary" sx={{lineHeight: '1.5em'}}>
             Zuletzt lassen wir eine Pusteblume wehen<br/>
