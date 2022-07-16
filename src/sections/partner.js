@@ -35,7 +35,7 @@ export default function PartnerSection() {
           <Image src={Maedels} alt="Mädels" />
         </Box>
 
-        <Box sx={{ px: [0, null, '0px', 0], pt: '80px' }}><Heading sx={{textAlign: 'center'}}>Wir freuen uns drauf!</Heading></Box>
+        <Box sx={{ px: [0, null, '0px', 0], pt: '80px', textAlign: 'center' }}><Heading sx={{textAlign: 'center'}}>Wir freuen uns drauf! 🤗</Heading></Box>
       </Container>
     </section>
   );
@@ -43,7 +43,6 @@ export default function PartnerSection() {
 
 const styles = {
   containerBox: {
-    display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     pt: '40px',
